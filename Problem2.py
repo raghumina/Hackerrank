@@ -1,6 +1,6 @@
 # Problem 2
 # Arithmatic operators
-# link of the problem: https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
+# link of the problem: https://www.hackerrank.com/challenges/python-arithmetic-operators/problem   check this link for original problem 
 # The provided code stub reads two integers from STDIN,  and . Add code to print three lines where:
 
 # The first line contains the sum of the two numbers.
