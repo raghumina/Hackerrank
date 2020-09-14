@@ -45,7 +45,7 @@
 
 
 # lets start
-
+'''
 user_input = int(input("Enter number here: "))
 if user_input % 2 != 0:
     print("weird")
@@ -56,3 +56,17 @@ if user_input % 2 != 0:
     for user_input in range(6, 20):
         if user_input / 2 == 0:
             print("Weird")
+'''
+input1 = int(input())
+if input1 % 2 != 0:
+    print("Weird")
+elif input1 in range(2,5) and input1 % 2 == 0:
+    print("Not Weird")
+elif input1 in range(6,20) and input1 % 2 == 0:
+    print("Weird")
+elif input1 > 20 and input1 % 2 != 0:
+    print("Weird")
+elif input1 > 60 and input1 % 2 == 0:
+    print("Not Weird")
+else:
+    print("Not Weird")
