@@ -32,3 +32,8 @@
 # Sample Output 0
 #
 # 123
+i = 0
+n = int(input())
+for i in range(n):
+    i = i + 1
+    print(i, end="")
