@@ -36,7 +36,7 @@
 # 15
 
 #
-
+'''
 # Complete the solve function below.
 def solve(meal_cost, tip_percent, tax_percent):
     tip = meal_cost * tip_percent / 100
@@ -51,3 +51,13 @@ tip_percent = int(input())
 tax_percent = int(input())
 
 print(solve(meal_cost, tip_percent, tax_percent))
+'''
+
+tip1 = float(input())
+tax1 = int(input())
+meal1 = float(input())
+tip1 = meal1 * tip1 / 100
+tax1 = meal1 * tax1 / 100
+cost1 = meal1 + tax1 + tip1
+cost12 = int(cost1)
+print(cost12)
