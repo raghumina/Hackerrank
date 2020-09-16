@@ -44,6 +44,6 @@ tax_percent = int(input())
 tip = meal_cost * tip_percent / 100
 tax = meal_cost * tax_percent / 100
 cost = float(meal_cost) + float(tax) + float(tip)
-cost1 = int(cost)
 
-print(cost1)
+
+print(round(cost))
