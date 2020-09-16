@@ -34,30 +34,16 @@
 # Sample Output
 #
 # 15
-
-#
-'''
-# Complete the solve function below.
-def solve(meal_cost, tip_percent, tax_percent):
-    tip = meal_cost * tip_percent / 100
-    tax = meal_cost * tax_percent / 100
-    cost = meal_cost + tax + tip
-    return int(cost)
+# Complete
+# the solve function below.
 
 meal_cost = float(input())
-
 tip_percent = int(input())
-
 tax_percent = int(input())
 
-print(solve(meal_cost, tip_percent, tax_percent))
-'''
+tip = meal_cost * tip_percent / 100
+tax = meal_cost * tax_percent / 100
+cost = float(meal_cost) + float(tax) + float(tip)
+cost1 = int(cost)
 
-tip1 = float(input())
-tax1 = int(input())
-meal1 = float(input())
-tip1 = meal1 * tip1 / 100
-tax1 = meal1 * tax1 / 100
-cost1 = meal1 + tax1 + tip1
-cost12 = int(cost1)
-print(cost12)
+print(cost1)
