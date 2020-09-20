@@ -36,3 +36,7 @@
 
 # Lets Start
 
+#for i in range(int(input())): s=input(); print(*["".join(s[::2]),"".join(s[1::2])])
+s = input()
+for i in range (int(input())):
+    print(*["".join(s[::2]),"".join(s[1::2])])
