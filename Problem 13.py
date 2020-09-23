@@ -32,9 +32,11 @@
 #
 
 # Lets start
-def factorial_recursion(num):
-    fact = 1
-    if num == 1:
+def factorial(N):
+    if N == 1:
         return 1
     else:
-        print()
+        return N * factorial(N - 1)
+
+N = int(input())
+print(factorial(N))
